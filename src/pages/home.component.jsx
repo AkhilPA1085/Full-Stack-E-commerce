@@ -1,7 +1,9 @@
 import Announcement from '../components/announcement.component'
-import Categories from '../components/categories.component'
+import Categories from '../components/categories/categories.component'
+import Footer from '../components/footer.component'
 import Navbar from '../components/navbar.components'
-import Products from '../components/products.component'
+import NewsLetter from '../components/newsletter.component'
+import Products from '../components/products/products.component'
 import Slider from '../components/slider.component'
 
 
@@ -14,6 +16,8 @@ const Home = () => {
       <Slider/>
       <Categories/>
       <Products/>
+      <NewsLetter/>
+      <Footer/>
     </div>
   )
 }
